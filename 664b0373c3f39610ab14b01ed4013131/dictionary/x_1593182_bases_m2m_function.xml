@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5178a777c3779610ab14b01ed40131ef" label="x_1593182_bases_m2m_Bases_Functions" max_length="40" name="x_1593182_bases_m2m_function" type="collection">
+        <element attributes="encode_utf8=false" label="Bases" max_length="32" name="x_1593182_bases_base" reference="x_1593182_bases_base" type="reference"/>
+        <element attributes="encode_utf8=false" label="Functions" max_length="32" name="x_1593182_bases_function" reference="x_1593182_bases_function" type="reference"/>
+        <index name="index">
+            <element name="x_1593182_bases_base"/>
+        </index>
+        <index name="index2">
+            <element name="x_1593182_bases_function"/>
+        </index>
+    </element>
+</database>

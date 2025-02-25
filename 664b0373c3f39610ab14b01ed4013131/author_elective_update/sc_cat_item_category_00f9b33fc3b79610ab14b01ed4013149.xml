@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="registration of participation in the company">3426bf77c3b79610ab14b01ed40131af</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 20:23:30</sys_created_on>
+        <sys_id>00f9b33fc3b79610ab14b01ed4013149</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.registration of participation in the company</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_update_name>sc_cat_item_category_00f9b33fc3b79610ab14b01ed4013149</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 20:23:30</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</application>
+        <file_path/>
+        <instance_id>bfb983c3dbce79d0ba7f684e13961980</instance_id>
+        <instance_name>dev195858</instance_name>
+        <name>sc_cat_item_category_00f9b33fc3b79610ab14b01ed4013149</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="registration of participation in the company">3426bf77c3b79610ab14b01ed40131af</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-25 20:23:30</sys_created_on><sys_id>00f9b33fc3b79610ab14b01ed4013149</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.registration of participation in the company</sys_name><sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package><sys_policy/><sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope><sys_update_name>sc_cat_item_category_00f9b33fc3b79610ab14b01ed4013149</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-25 20:23:30</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1770055700</payload_hash>
+        <record_name>Services.registration of participation in the company</record_name>
+        <reverted_from/>
+        <source>f9e4dbb7c3f39610ab14b01ed4013195</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 20:23:30</sys_created_on>
+        <sys_id>c0f9b33fc3b79610ab14b01ed401314d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1953ec767850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 20:23:30</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>c4f9b33f55b79610a57a40b63ea0dc4c</update_guid>
+        <update_guid_history>c4f9b33f55b79610a57a40b63ea0dc4c:1770055700</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.registration of participation in the company">e1da7b7fc3b79610ab14b01ed40131c5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 20:27:26</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>12b536cca68849ac81b54fe4058740f1</sys_id>
+        <sys_metadata>00f9b33fc3b79610ab14b01ed4013149</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.registration of participation in the company</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_scope_delete display_value="">21186fb644124c348e3f0f5a2b44b744</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_00f9b33fc3b79610ab14b01ed4013149</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_00f9b33fc3b79610ab14b01ed4013149">c0f9b33fc3b79610ab14b01ed401314d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 20:27:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
