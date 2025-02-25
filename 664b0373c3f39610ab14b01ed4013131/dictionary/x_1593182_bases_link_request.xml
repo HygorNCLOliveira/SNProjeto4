@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9501933bc3f39610ab14b01ed4013183" extends="task" label="Link Request" max_length="40" name="x_1593182_bases_link_request" type="collection">
+        <element label="Function" max_length="32" name="function" reference="x_1593182_bases_function" type="reference"/>
+        <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
+        <element label="Base" max_length="32" name="base" reference="x_1593182_bases_base" type="reference"/>
+    </element>
+</database>
