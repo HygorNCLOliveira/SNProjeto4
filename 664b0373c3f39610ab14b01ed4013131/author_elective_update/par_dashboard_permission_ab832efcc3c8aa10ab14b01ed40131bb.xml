@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="DELETE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Base admin reports">7ead9ef4c388aa10ab14b01ed4013130</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 16:40:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab832efcc3c8aa10ab14b01ed40131bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>7ead9ef4c388aa10ab14b01ed4013130</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_update_name>par_dashboard_permission_ab832efcc3c8aa10ab14b01ed40131bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:40:20</sys_updated_on>
+        <user display_value="Admin Base">54e917f3c3379610ab14b01ed40131f3</user>
+    </par_dashboard_permission>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</application>
+        <file_path/>
+        <instance_id>bfb983c3dbce79d0ba7f684e13961980</instance_id>
+        <instance_name>dev195858</instance_name>
+        <name>par_dashboard_permission_ab832efcc3c8aa10ab14b01ed40131bb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>false</can_share><can_write>false</can_write><dashboard display_value="Base admin reports">7ead9ef4c388aa10ab14b01ed4013130</dashboard><group/><owner>false</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-28 16:40:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ab832efcc3c8aa10ab14b01ed40131bb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>7ead9ef4c388aa10ab14b01ed4013130</sys_name><sys_overrides/><sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package><sys_policy/><sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope><sys_update_name>par_dashboard_permission_ab832efcc3c8aa10ab14b01ed40131bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-28 16:40:20</sys_updated_on><user display_value="Admin Base">54e917f3c3379610ab14b01ed40131f3</user></par_dashboard_permission></record_update>]]></payload>
+        <payload_hash>-1038131546</payload_hash>
+        <record_name>7ead9ef4c388aa10ab14b01ed4013130</record_name>
+        <reverted_from/>
+        <source>f9e4dbb7c3f39610ab14b01ed4013195</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 16:40:20</sys_created_on>
+        <sys_id>2ca326b0c30caa10ab14b01ed40131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1954d6e2cdd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:40:20</sys_updated_on>
+        <type>PAR Dashboard Permission</type>
+        <update_guid>a0a326b0590caa10495235b87f12c9e5</update_guid>
+        <update_guid_history>a0a326b0590caa10495235b87f12c9e5:-1038131546,67832efcd7c8aa105839f1b1458d23bd:158809817</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Base admin reports">4a5466f0c30caa10ab14b01ed4013128</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 16:43:27</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_permission">par_dashboard_permission</sys_db_object>
+        <sys_id>de58e361e1d44f498f945d2b3f3b66a9</sys_id>
+        <sys_metadata>ab832efcc3c8aa10ab14b01ed40131bb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7ead9ef4c388aa10ab14b01ed4013130</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_scope_delete display_value="">21186fb644124c348e3f0f5a2b44b744</sys_scope_delete>
+        <sys_update_name>par_dashboard_permission_ab832efcc3c8aa10ab14b01ed40131bb</sys_update_name>
+        <sys_update_version display_value="par_dashboard_permission_ab832efcc3c8aa10ab14b01ed40131bb">2ca326b0c30caa10ab14b01ed40131e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:43:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1593182_bases_link_request">state=5^EQ<item display_value="Awaiting approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Awaiting Approval</label>
+        <name>Awaiting Approval</name>
+        <order>200</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 01:07:32</sys_created_on>
+        <sys_id>25ea2e2dc3002210ab14b01ed4013126</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Awaiting Approval</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_update_name>sys_process_flow_25ea2e2dc3002210ab14b01ed4013126</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 01:12:47</sys_updated_on>
+        <table>x_1593182_bases_link_request</table>
+    </sys_process_flow>
+</record_update>

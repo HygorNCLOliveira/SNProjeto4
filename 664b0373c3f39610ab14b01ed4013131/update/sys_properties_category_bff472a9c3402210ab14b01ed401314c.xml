@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Bases</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 01:51:46</sys_created_on>
+        <sys_id>bff472a9c3402210ab14b01ed401314c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bases</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_update_name>sys_properties_category_bff472a9c3402210ab14b01ed401314c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 01:51:46</sys_updated_on>
+        <title/>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=bff472a9c3402210ab14b01ed401314c"/>
+</record_update>

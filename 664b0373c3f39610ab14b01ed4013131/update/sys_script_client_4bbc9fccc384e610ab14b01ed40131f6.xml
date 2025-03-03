@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This automation assigns the role of manager to the user filled in in the manager field, and subtracts a vacancy from the base capacity number.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name> automation manager</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var managerID = g_form.getValue('manager'); // Pega o sys_id do manager
+    var baseName = g_form.getValue('name'); // Pega o nome da base diretamente
+
+    if (managerID) {
+        g_form.getReference('manager', function(managerRecord) {
+            if (managerRecord) {
+                var managerName = managerRecord.name; // Obtém o nome do usuário
+                executarScriptInclude(managerName, baseName);
+            }
+        });
+
+
+    }
+}
+
+function executarScriptInclude(managerName, baseName) {
+    if (!managerName || !baseName) {
+        g_form.addErrorMessage('Erro: Manager ou Base não informados corretamente.');
+        return;
+    }
+
+    var ga = new GlideAjax('BaseManagerHandler');
+    ga.addParam('sysparm_name', managerName);
+    ga.addParam('sysparm_base', baseName);
+    ga.getXMLAnswer(function(response) {
+
+        if (response.startsWith('Erro')) {
+            g_form.addErrorMessage(response);
+        } else {
+            g_form.addInfoMessage(response);
+        }
+    });
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 12:57:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4bbc9fccc384e610ab14b01ed40131f6</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name> automation manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_update_name>sys_script_client_4bbc9fccc384e610ab14b01ed40131f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-27 18:53:14</sys_updated_on>
+        <table>x_1593182_bases_base</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

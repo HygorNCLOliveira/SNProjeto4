@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Bases">bff472a9c3402210ab14b01ed401314c</category>
+        <order>100</order>
+        <property display_value="x_1593182_bases.integration_active" name="x_1593182_bases.integration_active">3b057a69c3402210ab14b01ed4013157</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 01:53:15</sys_created_on>
+        <sys_id>5355fe69c3402210ab14b01ed40131cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593182_bases.integration_active.Bases</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_5355fe69c3402210ab14b01ed40131cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 01:53:15</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

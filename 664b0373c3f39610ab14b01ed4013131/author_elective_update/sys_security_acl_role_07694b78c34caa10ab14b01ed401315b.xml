@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 19:27:15</sys_created_on>
+        <sys_id>07694b78c34caa10ab14b01ed401315b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1593182_bases.admin_base</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_security_acl display_value="">8a6943fcc38caa10ab14b01ed40131cc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_07694b78c34caa10ab14b01ed401315b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 19:27:15</sys_updated_on>
+        <sys_user_role display_value="x_1593182_bases.admin_base" name="x_1593182_bases.admin_base">aa4b0373c3f39610ab14b01ed4013175</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</application>
+        <file_path/>
+        <instance_id>bfb983c3dbce79d0ba7f684e13961980</instance_id>
+        <instance_name>dev195858</instance_name>
+        <name>sys_security_acl_role_07694b78c34caa10ab14b01ed401315b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-28 19:27:15</sys_created_on><sys_id>07694b78c34caa10ab14b01ed401315b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1593182_bases.admin_base</sys_name><sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package><sys_policy/><sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope><sys_security_acl display_value="">8a6943fcc38caa10ab14b01ed40131cc</sys_security_acl><sys_update_name>sys_security_acl_role_07694b78c34caa10ab14b01ed401315b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-28 19:27:15</sys_updated_on><sys_user_role display_value="x_1593182_bases.admin_base" name="x_1593182_bases.admin_base">aa4b0373c3f39610ab14b01ed4013175</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1015777977</payload_hash>
+        <record_name>.x_1593182_bases.admin_base</record_name>
+        <reverted_from/>
+        <source>f9e4dbb7c3f39610ab14b01ed4013195</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 19:27:15</sys_created_on>
+        <sys_id>95d98bfcc38caa10ab14b01ed4013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1954e06fae80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 19:27:15</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>59d98bfcac8caa10cf121ee814fa1e05</update_guid>
+        <update_guid_history>59d98bfcac8caa10cf121ee814fa1e05:1015777977</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_1593182_bases.admin_base">957acffcc38caa10ab14b01ed401312a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 19:29:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0a41009968e04db2809fd8352de380f1</sys_id>
+        <sys_metadata>07694b78c34caa10ab14b01ed401315b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1593182_bases.admin_base</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_parent display_value="">8a6943fcc38caa10ab14b01ed40131cc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_scope_delete display_value="">21186fb644124c348e3f0f5a2b44b744</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_07694b78c34caa10ab14b01ed401315b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_07694b78c34caa10ab14b01ed401315b">95d98bfcc38caa10ab14b01ed4013106</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 19:29:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

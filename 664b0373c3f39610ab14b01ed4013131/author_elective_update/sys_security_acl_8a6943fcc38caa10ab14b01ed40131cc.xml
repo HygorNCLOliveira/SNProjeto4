@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>sys_report</name>
+        <operation display_value="report_view">0997ab83733303005978e4b9cdf6a7b9</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 19:27:15</sys_created_on>
+        <sys_id>8a6943fcc38caa10ab14b01ed40131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_report</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_update_name>sys_security_acl_8a6943fcc38caa10ab14b01ed40131cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 19:27:15</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</application>
+        <file_path/>
+        <instance_id>bfb983c3dbce79d0ba7f684e13961980</instance_id>
+        <instance_name>dev195858</instance_name>
+        <name>sys_security_acl_8a6943fcc38caa10ab14b01ed40131cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>sys_report</name><operation display_value="report_view">0997ab83733303005978e4b9cdf6a7b9</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-28 19:27:15</sys_created_on><sys_id>8a6943fcc38caa10ab14b01ed40131cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_report</sys_name><sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package><sys_policy/><sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope><sys_update_name>sys_security_acl_8a6943fcc38caa10ab14b01ed40131cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-28 19:27:15</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1278032841</payload_hash>
+        <record_name>sys_report</record_name>
+        <reverted_from/>
+        <source>f9e4dbb7c3f39610ab14b01ed4013195</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 19:27:15</sys_created_on>
+        <sys_id>91d98bfcc38caa10ab14b01ed401310b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1954e06fb360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 19:27:15</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>95d98bfcb48caa1029a42e7e6b1d120a</update_guid>
+        <update_guid_history>95d98bfcb48caa1029a42e7e6b1d120a:-1278032841</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 19:29:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1bd5bf1c5d3540988e97fd81a75ffcc1</sys_id>
+        <sys_metadata>8a6943fcc38caa10ab14b01ed40131cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_report</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_parent display_value="sys_report">6a9f4f60dc1212104f34465061b06a16</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_scope_delete display_value="">21186fb644124c348e3f0f5a2b44b744</sys_scope_delete>
+        <sys_update_name>sys_security_acl_8a6943fcc38caa10ab14b01ed40131cc</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_8a6943fcc38caa10ab14b01ed40131cc">91d98bfcc38caa10ab14b01ed401310b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 19:29:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -2,27 +2,27 @@
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <cleared>false</cleared>
         <disabled>ignore</disabled>
-        <field>manager</field>
+        <field>reproval_reason</field>
         <field_message/>
         <field_message_type>none</field_message_type>
-        <mandatory>true</mandatory>
+        <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-25 18:23:01</sys_created_on>
-        <sys_id>5b5ed37bc3379610ab14b01ed401311e</sys_id>
+        <sys_created_on>2025-02-26 21:12:26</sys_created_on>
+        <sys_id>ecae4950c3002a10ab14b01ed40131b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>manager</sys_name>
+        <sys_name>reproval_reason</sys_name>
         <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
         <sys_policy/>
         <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
-        <sys_update_name>sys_ui_policy_action_5b5ed37bc3379610ab14b01ed401311e</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_ecae4950c3002a10ab14b01ed40131b5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-25 18:23:01</sys_updated_on>
-        <table>x_1593182_bases_base</table>
-        <ui_policy display_value="Fields mandatory">d7fd5f3bc3379610ab14b01ed4013146</ui_policy>
+        <sys_updated_on>2025-02-26 21:12:26</sys_updated_on>
+        <table>x_1593182_bases_link_request</table>
+        <ui_policy display_value="field Reproval reason show/hide">7b5e0550c3002a10ab14b01ed4013136</ui_policy>
         <value/>
         <value_action>ignore</value_action>
-        <visible>ignore</visible>
+        <visible>false</visible>
     </sys_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=5b5ed37bc3379610ab14b01ed401311e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ecae4950c3002a10ab14b01ed40131b5"/>
 </record_update>
