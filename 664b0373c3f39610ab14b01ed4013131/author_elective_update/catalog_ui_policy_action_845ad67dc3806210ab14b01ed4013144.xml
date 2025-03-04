@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="registration of participation in the company">a10bff7fc3b79610ab14b01ed4013132</catalog_item>
+        <catalog_variable>IO:b57bff7fc3b79610ab14b01ed40131ab</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 18:33:44</sys_created_on>
+        <sys_id>845ad67dc3806210ab14b01ed4013144</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>base</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_845ad67dc3806210ab14b01ed4013144</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 18:49:52</sys_updated_on>
+        <table/>
+        <ui_policy display_value="show/hide">38991ef9c3806210ab14b01ed40131c7</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>base</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=845ad67dc3806210ab14b01ed4013144"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</application>
+        <file_path/>
+        <instance_id>bfb983c3dbce79d0ba7f684e13961980</instance_id>
+        <instance_name>dev195858</instance_name>
+        <name>catalog_ui_policy_action_845ad67dc3806210ab14b01ed4013144</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="registration of participation in the company">a10bff7fc3b79610ab14b01ed4013132</catalog_item><catalog_variable>IO:b57bff7fc3b79610ab14b01ed40131ab</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 18:33:44</sys_created_on><sys_id>845ad67dc3806210ab14b01ed4013144</sys_id><sys_mod_count>3</sys_mod_count><sys_name>base</sys_name><sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package><sys_policy/><sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope><sys_update_name>catalog_ui_policy_action_845ad67dc3806210ab14b01ed4013144</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 18:49:52</sys_updated_on><table/><ui_policy display_value="show/hide">38991ef9c3806210ab14b01ed40131c7</ui_policy><value/><value_action>ignore</value_action><variable>base</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=845ad67dc3806210ab14b01ed4013144"/></record_update>]]></payload>
+        <payload_hash>-971816911</payload_hash>
+        <record_name>base</record_name>
+        <reverted_from/>
+        <source>f9e4dbb7c3f39610ab14b01ed4013195</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 18:49:52</sys_created_on>
+        <sys_id>170e56b1c3c06210ab14b01ed40131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955d57d8310000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 18:49:52</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>9b0e56b103c062102e7704dfb91fb9c2</update_guid>
+        <update_guid_history>9b0e56b103c062102e7704dfb91fb9c2:-971816911,f40e56b165c062101919c3f68ee69509:-2078217046,641b5abd1480621082aae0942e1f8a37:-1953852314,7a5a1a7d838062104f15be80c732366c:-971816911</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="base">478ed6b1c3c06210ab14b01ed40131f4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 18:52:03</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>5b6440305b5149a0b19ec50cf37d7100</sys_id>
+        <sys_metadata>845ad67dc3806210ab14b01ed4013144</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>base</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_scope_delete display_value="">21186fb644124c348e3f0f5a2b44b744</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_845ad67dc3806210ab14b01ed4013144</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_845ad67dc3806210ab14b01ed4013144">170e56b1c3c06210ab14b01ed40131c3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 18:52:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

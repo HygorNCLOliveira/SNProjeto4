@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>false</active>
+        <api_name>x_1593182_bases.BaseManagerHandler</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>This automation assigns the role of manager to the user filled in in the manager field, and subtracts a vacancy from the base capacity number.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>BaseManagerHandler</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var BaseManagerHandler = Class.create();
+BaseManagerHandler.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+	
+    processarBase: function() {
+
+		var manager = this.getParameter('sysparm_name');
+		var baseName = this.getParameter('sysparm_base');
+
+		if (!manager || !baseName) {
+            return 'Erro: Manager ou Base não informados corretamente.';
+        }
+
+        var baseGR = new GlideRecord('x_1593182_bases_base');
+        baseGR.addQuery('name', baseName);
+        baseGR.query();
+
+        if (baseGR.next()) {
+            if (baseGR.capacity > 0) {
+                baseGR.capacity -= 1;
+                baseGR.update();
+
+                var linkRequestGR = new GlideRecord('x_1593182_bases_link_request');
+                linkRequestGR.initialize();
+                linkRequestGR.created_by = manager;
+                linkRequestGR.base = baseName;
+                linkRequestGR.state = 3;
+                linkRequestGR.insert();
+
+                return 'Gerente vinculado com sucesso!';
+
+			} else {
+                return 'Erro: Capacidade máxima atingida!';
+            }
+        } else {
+            return 'Erro: Base não encontrada!';
+        }
+    },
+
+    type: 'BaseManagerHandler'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 14:30:20</sys_created_on>
+        <sys_id>bb427fccc308e610ab14b01ed40131f8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>BaseManagerHandler</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_update_name>sys_script_include_bb427fccc308e610ab14b01ed40131f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-27 18:53:04</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>bb427fccc308e610ab14b01ed40131f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 14:30:19</sys_created_on>
+        <sys_id>50b23fc0c308e610ab14b01ed40131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 14:30:19</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</application>
+        <file_path/>
+        <instance_id>bfb983c3dbce79d0ba7f684e13961980</instance_id>
+        <instance_name>dev195858</instance_name>
+        <name>sys_script_include_bb427fccc308e610ab14b01ed40131f8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_1593182_bases.BaseManagerHandler&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;This automation assigns the role of manager to the user filled in in the manager field, and subtracts a vacancy from the base capacity number.&lt;/description&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;BaseManagerHandler&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var BaseManagerHandler = Class.create();
+BaseManagerHandler.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+	
+    processarBase: function() {
+
+		var manager = this.getParameter('sysparm_name');
+		var baseName = this.getParameter('sysparm_base');
+
+		if (!manager || !baseName) {
+            return 'Erro: Manager ou Base não informados corretamente.';
+        }
+
+        var baseGR = new GlideRecord('x_1593182_bases_base');
+        baseGR.addQuery('name', baseName);
+        baseGR.query();
+
+        if (baseGR.next()) {
+            if (baseGR.capacity &gt; 0) {
+                baseGR.capacity -= 1;
+                baseGR.update();
+
+                var linkRequestGR = new GlideRecord('x_1593182_bases_link_request');
+                linkRequestGR.initialize();
+                linkRequestGR.created_by = manager;
+                linkRequestGR.base = baseName;
+                linkRequestGR.state = 3;
+                linkRequestGR.insert();
+
+                return 'Gerente vinculado com sucesso!';
+
+			} else {
+                return 'Erro: Capacidade máxima atingida!';
+            }
+        } else {
+            return 'Erro: Base não encontrada!';
+        }
+    },
+
+    type: 'BaseManagerHandler'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-26 14:30:20&lt;/sys_created_on&gt;&lt;sys_id&gt;bb427fccc308e610ab14b01ed40131f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;BaseManagerHandler&lt;/sys_name&gt;&lt;sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases"&gt;664b0373c3f39610ab14b01ed4013131&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="bases - Hygor Oliveira"&gt;664b0373c3f39610ab14b01ed4013131&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_bb427fccc308e610ab14b01ed40131f8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-27 18:53:04&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;bb427fccc308e610ab14b01ed40131f8&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-26 14:30:19&lt;/sys_created_on&gt;&lt;sys_id&gt;50b23fc0c308e610ab14b01ed40131f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-26 14:30:19&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-577598367</payload_hash>
+        <record_name>BaseManagerHandler</record_name>
+        <reverted_from/>
+        <source>f9e4dbb7c3f39610ab14b01ed4013195</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-27 18:53:05</sys_created_on>
+        <sys_id>8f68f1acc3446a10ab14b01ed40131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19548c157350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-27 18:53:05</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>c368f1ace1446a106b0542bf5647dfb3</update_guid>
+        <update_guid_history>c368f1ace1446a106b0542bf5647dfb3:-577598367,709c2054154ce610b878b0904d111f42:-23959538,9beb20149f4ce610e1ed01957a419de9:-888478522,226b2c1c750ce61071355432b0fc4c46:-1585988043,c9eecc5079c8e6108d00306a2fad5de3:-2001251292,38b27b003a48e610f5c0de44909c52e2:236664125</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 00:47:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>06a6052c3959405e922bc3743ade46d1</sys_id>
+        <sys_metadata>bb427fccc308e610ab14b01ed40131f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BaseManagerHandler</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_scope_delete display_value="">21186fb644124c348e3f0f5a2b44b744</sys_scope_delete>
+        <sys_update_name>sys_script_include_bb427fccc308e610ab14b01ed40131f8</sys_update_name>
+        <sys_update_version display_value="sys_script_include_bb427fccc308e610ab14b01ed40131f8">8f68f1acc3446a10ab14b01ed40131b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 00:47:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

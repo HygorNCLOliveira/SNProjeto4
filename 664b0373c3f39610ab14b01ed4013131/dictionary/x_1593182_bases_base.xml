@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c1dbcb73c3f39610ab14b01ed4013145" label="Base" max_length="40" name="x_1593182_bases_base" type="collection">
+        <element label="Total Capacity" max_length="40" name="total_capacity" type="integer"/>
         <element label="Latitude" max_length="250" name="latitude" type="string"/>
         <element label="Temperature" max_length="250" name="temperature" type="string"/>
         <element label="Longitude" max_length="250" name="longitude" type="string"/>
         <element label="City" max_length="250" name="city" type="string"/>
-        <element label="Manager" max_length="32" name="manager" reference="sys_user" reference_qual="roles=x_1593182_bases.manager_base^EQ" reference_qual_condition="roles=x_1593182_bases.manager_base^EQ" type="reference"/>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
         <element display="true" label="Name" max_length="250" name="name" type="string"/>
         <element label="Capacity" max_length="40" name="capacity" type="integer"/>
-        <element label="State" max_length="250" name="state" type="string"/>
+        <element choice="1" label="State" max_length="250" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Santa Catarina (SC)" sequence="24" value="Santa Catarina (SC)"/>
+                <element inactive_on_update="false" label="Paraná (PR)" sequence="16" value="Paraná (PR)"/>
+                <element inactive_on_update="false" label="Roraima (RR)" sequence="23" value="Roraima (RR)"/>
+                <element inactive_on_update="false" label="Rio Grande do Norte (RN)" sequence="20" value="Rio Grande do Norte (RN)"/>
+                <element inactive_on_update="false" label="Goiás (GO)" sequence="9" value="Goiás (GO)"/>
+                <element inactive_on_update="false" label="Amapá (AP)" sequence="3" value="Amapá (AP)"/>
+                <element inactive_on_update="false" label="Amazonas (AM)" sequence="4" value="Amazonas (AM)"/>
+                <element inactive_on_update="false" label="Maranhão (MA)" sequence="10" value="Maranhão (MA)"/>
+                <element inactive_on_update="false" label="Rio de Janeiro (RJ)" sequence="19" value="Rio de Janeiro (RJ)"/>
+                <element inactive_on_update="false" label="Paraíba (PB)" sequence="15" value="Paraíba (PB)"/>
+                <element inactive_on_update="false" label="Rondônia (RO)" sequence="22" value="Rondônia (RO)"/>
+                <element inactive_on_update="false" label="Pernambuco (PE)" sequence="17" value="Pernambuco (PE)"/>
+                <element inactive_on_update="false" label="Sergipe (SE)" sequence="26" value="Sergipe (SE)"/>
+                <element inactive_on_update="false" label="Minas Gerais (MG)" sequence="13" value="Minas Gerais (MG)"/>
+                <element inactive_on_update="false" label="Acre (AC)" sequence="1" value="Acre (AC)"/>
+                <element inactive_on_update="false" label="Rio Grande do Sul (RS)" sequence="21" value="Rio Grande do Sul (RS)"/>
+                <element inactive_on_update="false" label="Tocantins (TO)" sequence="27" value="Tocantins (TO)"/>
+                <element inactive_on_update="false" label="Piauí (PI)" sequence="18" value="Piauí (PI)"/>
+                <element inactive_on_update="false" label="Bahia (BA)" sequence="5" value="Bahia (BA)"/>
+                <element inactive_on_update="false" label="Espírito Santo (ES)" sequence="8" value="Espírito Santo (ES)"/>
+                <element inactive_on_update="false" label="Mato Grosso do Sul (MS)" sequence="12" value="Mato Grosso do Sul (MS)"/>
+                <element inactive_on_update="false" label="Ceará (CE)" sequence="6" value="Ceará (CE)"/>
+                <element inactive_on_update="false" label="Distrito Federal (DF)" sequence="7" value="Distrito Federal (DF)"/>
+                <element inactive_on_update="false" label="Mato Grosso (MT)" sequence="11" value="Mato Grosso (MT)"/>
+                <element inactive_on_update="false" label="Pará (PA)" sequence="14" value="Pará (PA)"/>
+                <element inactive_on_update="false" label="Alagoas (AL)" sequence="2" value="Alagoas (AL)"/>
+                <element inactive_on_update="false" label="São Paulo (SP)" sequence="25" value="São Paulo (SP)"/>
+            </choice>
+        </element>
         <element choice="3" label="Integration state" max_length="40" name="integration_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Integrationg" sequence="0" value="integrationg"/>

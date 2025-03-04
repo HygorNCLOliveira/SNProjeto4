@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>base</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 19:03:15</sys_created_on>
+        <sys_id>100162b5c3c06210ab14b01ed4013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>base</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_update_name>sys_ui_policy_action_100162b5c3c06210ab14b01ed4013182</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 19:03:15</sys_updated_on>
+        <table>x_1593182_bases_link_request</table>
+        <ui_policy display_value="Who can create new records">2abf9635c3c06210ab14b01ed4013184</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=100162b5c3c06210ab14b01ed4013182"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</application>
+        <file_path/>
+        <instance_id>bfb983c3dbce79d0ba7f684e13961980</instance_id>
+        <instance_name>dev195858</instance_name>
+        <name>sys_ui_policy_action_100162b5c3c06210ab14b01ed4013182</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>base</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 19:03:15</sys_created_on><sys_id>100162b5c3c06210ab14b01ed4013182</sys_id><sys_mod_count>0</sys_mod_count><sys_name>base</sys_name><sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package><sys_policy/><sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope><sys_update_name>sys_ui_policy_action_100162b5c3c06210ab14b01ed4013182</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 19:03:15</sys_updated_on><table>x_1593182_bases_link_request</table><ui_policy display_value="Who can create new records">2abf9635c3c06210ab14b01ed4013184</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=100162b5c3c06210ab14b01ed4013182"/></record_update>]]></payload>
+        <payload_hash>-1613938114</payload_hash>
+        <record_name>base</record_name>
+        <reverted_from/>
+        <source>f9e4dbb7c3f39610ab14b01ed4013195</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 19:03:15</sys_created_on>
+        <sys_id>9b116e75c3c06210ab14b01ed401310d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955d64186a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 19:03:15</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>9f116e7527c06210ec0f49c83332bc0c</update_guid>
+        <update_guid_history>9f116e7527c06210ec0f49c83332bc0c:-1613938114</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 19:05:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>c67fc7da632b48bfa7171fcdd0cb9f19</sys_id>
+        <sys_metadata>100162b5c3c06210ab14b01ed4013182</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>base</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_parent display_value="">2abf9635c3c06210ab14b01ed4013184</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_scope_delete display_value="">21186fb644124c348e3f0f5a2b44b744</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_100162b5c3c06210ab14b01ed4013182</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_100162b5c3c06210ab14b01ed4013182">9b116e75c3c06210ab14b01ed401310d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 19:05:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

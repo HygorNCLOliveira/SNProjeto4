@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:b57bff7fc3b79610ab14b01ed40131abISEMPTY^EQ</catalog_conditions>
+        <catalog_item display_value="registration of participation in the company">a10bff7fc3b79610ab14b01ed4013132</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <published_ref/>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>show/hide</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 18:33:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38991ef9c3806210ab14b01ed40131c7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>show/hide</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_update_name>catalog_ui_policy_38991ef9c3806210ab14b01ed40131c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 18:50:16</sys_updated_on>
+        <table/>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+    <sys_es_latest_script action="DELETE">
+        <id>38991ef9c3806210ab14b01ed40131c7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 18:33:24</sys_created_on>
+        <sys_id>354a567dc3806210ab14b01ed40131ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 18:33:24</sys_updated_on>
+        <table>catalog_ui_policy</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</application>
+        <file_path/>
+        <instance_id>bfb983c3dbce79d0ba7f684e13961980</instance_id>
+        <instance_name>dev195858</instance_name>
+        <name>catalog_ui_policy_38991ef9c3806210ab14b01ed40131c7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:b57bff7fc3b79610ab14b01ed40131abISEMPTY^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="registration of participation in the company"&gt;a10bff7fc3b79610ab14b01ed4013132&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;show/hide&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 18:33:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;38991ef9c3806210ab14b01ed40131c7&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;show/hide&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases"&gt;664b0373c3f39610ab14b01ed4013131&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="bases - Hygor Oliveira"&gt;664b0373c3f39610ab14b01ed4013131&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_38991ef9c3806210ab14b01ed40131c7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 18:50:16&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;38991ef9c3806210ab14b01ed40131c7&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 18:33:24&lt;/sys_created_on&gt;&lt;sys_id&gt;354a567dc3806210ab14b01ed40131ea&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 18:33:24&lt;/sys_updated_on&gt;&lt;table&gt;catalog_ui_policy&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-12704386</payload_hash>
+        <record_name>show/hide</record_name>
+        <reverted_from/>
+        <source>f9e4dbb7c3f39610ab14b01ed4013195</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 18:50:16</sys_created_on>
+        <sys_id>c12ed6b1c3c06210ab14b01ed4013193</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955d5835a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 18:50:16</sys_updated_on>
+        <type>Catalog UI Policy</type>
+        <update_guid>492ed6b16ac0621000153824fb9dfd92</update_guid>
+        <update_guid_history>492ed6b16ac0621000153824fb9dfd92:-12704386,e7cdde7193c062101263c766e87a8fd6:9593715,1d8bd2fde08062107997b3f54411b97e:531656033,f37bd2fd008062109eb43769ceafcd09:-450027829,4e4a967d6b806210e112e83495f2a14a:-1305277623</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="show/hide">cb8ed6b1c3c06210ab14b01ed40131f0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 18:52:03</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy">catalog_ui_policy</sys_db_object>
+        <sys_id>04e826a8a876468e82659c8186874879</sys_id>
+        <sys_metadata>38991ef9c3806210ab14b01ed40131c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>show/hide</sys_name>
+        <sys_package display_value="bases - Hygor Oliveira" source="x_1593182_bases">664b0373c3f39610ab14b01ed4013131</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="bases - Hygor Oliveira">664b0373c3f39610ab14b01ed4013131</sys_scope>
+        <sys_scope_delete display_value="">21186fb644124c348e3f0f5a2b44b744</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_38991ef9c3806210ab14b01ed40131c7</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_38991ef9c3806210ab14b01ed40131c7">c12ed6b1c3c06210ab14b01ed4013193</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 18:52:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
